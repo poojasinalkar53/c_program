@@ -1,19 +1,19 @@
-#include<stdio.h>
+
+	#include<stdio.h>
 int main()
 {
-	int choice,r,l,w,b,h;
+	int choice,s,l,w,b,h;
 	float area;
-	printf("Inpute 1 for area of circle\n");
+	printf("Inpute 1 for area of square\n");
 	printf("Inpute 2 for area of rectangle\n");
 	printf("Inpute 3 for area of triangle\n");
 	printf("Inpute your choice : ");
 	scanf("%d",&choice);
 	switch(choice)
-	{
-		case 1:
+	case 1:
 			printf("Inpute radius of the circle : ");
-			scanf("%d",&r);
-			area=3.14*r*r;
+			scanf("%d",&s);
+			area=s*s;
 			break;
 			case 2:
 				printf("Inpute length and width of the rectangle : ");
